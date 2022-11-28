@@ -21,9 +21,6 @@ def ingest_data():
 #Se eliminan las primeras filas
     row=row[4:]
 
-#Se eliminan las primeras filas
-    row=row[4:]
-
 #Con los datos de cada clúster se hace una lista
     clusters = []
     cluster = [0, 0, 0, '']
